@@ -42,6 +42,7 @@ db/migrations/down:
 	migrate -path ./migrations -database ${HOTEL_DB_DSN} down
 
 ## db/migrations/fix version=$1: Force the schema_migrations table version
-.PHONY: db/migrations/fix:
+.PHONY: db/migrations/fix
+db/migrations/fix:
 	@echo 'Forcing schema migrations version to ${version}...'
 	migrate -path ./migrations -database ${HOTEL_DB_DSN} force ${version}
