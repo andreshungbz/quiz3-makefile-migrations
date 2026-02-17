@@ -11,4 +11,4 @@
 
 ## Notes
 
-- The provided `.envrc` file is for demonstration purposes and is normally set to be ignored in a `.gitignore` file.`
+- The provided `.envrc` file is for demonstration purposes and is normally set to be ignored in a `.gitignore` file.
